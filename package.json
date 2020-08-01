@@ -1,0 +1,23 @@
+{
+  "name": "iot-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sevipsagis/IoT-from-Scratch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sevipsagis/IoT-from-Scratch/issues"
+  },
+  "homepage": "https://github.com/Sevipsagis/IoT-from-Scratch#readme",
+  "dependencies": {
+    "etherport-client": "^0.1.4",
+    "johnny-five": "^2.0.0"
+  }
+}
