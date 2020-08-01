@@ -1,9 +1,7 @@
-const { EtherPortClient } = require('etherport-client');
-const five = require('johnny-five');
-const board = new five.Board({
-    port: new EtherPortClient({
-        host: '10.0.0.49',
-        port: 3030
-    }),
-    repl: false
-});
+const { blink } = require('./blink');
+
+try {
+    blink(); 
+} catch (error) {
+    console.log(error);
+}
