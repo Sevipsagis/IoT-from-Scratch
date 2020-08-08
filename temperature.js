@@ -5,7 +5,7 @@ const thermometer = () => {
     board.on("ready", () => {
         const thermometer = new Thermometer({
             controller: "DS18B20",
-            pin: "7"
+            pin: "3"
         });
 
         thermometer.on("change", () => {
