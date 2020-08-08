@@ -20,6 +20,7 @@
     "etherport-client": "^0.1.4",
     "firmata": "^2.2.0",
     "johnny-five": "^2.0.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "serialport": "^9.0.0"
   }
 }
